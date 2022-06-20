@@ -57,7 +57,7 @@ const Header = () => {
                         <li className="header-3-list-item"><a href="" className="header-3-list-item-link">Giới thiệu</a></li>
                         <li className="header-3-list-item"><a href="./product-boy.html" className="header-3-list-item-link">đồng hồ nam</a></li>
                         <li className="header-3-list-item"><a href="./product-girl.html" className="header-3-list-item-link">đồng hồ nữ</a></li>
-                        <li className="header-3-list-item"><a href="./news.html" className="header-3-list-item-link">blogs</a></li>
+                        <li className="header-3-list-item"><Link to={'/Blogs'} className="header-3-list-item-link">blogs</Link></li>
                         <li className="header-3-list-item"><Link to={'/Contact'} className="header-3-list-item-link">liên hệ</Link></li>
                         <li className="header-3-list-item header-3-list-item-mobile">
                             <div className="header-3-list-item-search">

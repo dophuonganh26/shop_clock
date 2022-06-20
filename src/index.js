@@ -4,6 +4,7 @@ import { BrowserRouter, BrowserRouter as Router, Route, Routes } from 'react-rou
 import './index.css';
 import App from './App';
 import Contact from './screen/Contact/Contact';
+import Blogs from './screen/Blogs/Blogs';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -13,6 +14,7 @@ root.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="Contact" element={<Contact />} />
+      <Route path='/Blogs' element={<Blogs/>}/>
       {/* <Route path="invoices" element={<Invoices />} /> */}
     </Routes>
   </BrowserRouter>
